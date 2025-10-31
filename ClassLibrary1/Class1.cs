@@ -2,6 +2,6 @@
 {
     public class Class1
     {
-        public static bool Test() => ArmDot.Client.Api.IsCodeProtected();
+        public static bool IsObfuscated() => ArmDot.Client.Api.IsCodeProtected();
     }
 }

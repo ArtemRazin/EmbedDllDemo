@@ -16,7 +16,7 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Class1.Test().ToString());
+            MessageBox.Show(Class1.IsObfuscated().ToString());
         }
     }
 }
